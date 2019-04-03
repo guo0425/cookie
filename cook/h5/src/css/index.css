@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.web {
+  width: 100%;
+  height: 100%; }
+
+.top {
+  width: 100%;
+  height: 35px;
+  margin-top: 2px; }
+  .top input {
+    width: 78%;
+    height: 35px; }
+  .top button {
+    width: 19%;
+    height: 35px;
+    border: 1px solid #ccc; }
+
+.list {
+  width: 100%;
+  height: 100%;
+  background: yellowgreen;
+  display: none; }
+  .list li {
+    border-bottom: 1px solid #ccc;
+    line-height: 30px; }
+
+.arrows {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none; }
