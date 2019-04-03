@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+
+<body>
+    <div class="web">
+        <div class="head">
+            <div class="nav">搜索结果</div>
+            <div class="top">
+                <input type="text" class="sBox"> <button class="btn">搜索</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="cont">
+                <div class="tabs">
+                    <span class="active" id="0">综合</span>
+                    <span id="1" data-sort='scroe'>评分最高</span>
+                    <span id="2" data-sort="done">人数</span>
+                </div>
+                <div class="pull">
+                    <section>
+                        <!-- <dl>
+                            <dt>
+                                <dt><img src="img/1.png" alt="" style="width:40px"></dt>
+                            <h3>哈密瓜奶昔</h3>
+                            <p><span>7.5分</span><span>3个人做过</span></p>
+                            </dt>
+                        </dl> -->
+                    </section>
+                    <section>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/libs/require.js"></script>
+    <script>
+        require(['js/main'], () => {
+            require(['detail'])
+        })
+    </script>
+</body>
+
+</html>

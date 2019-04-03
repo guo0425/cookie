@@ -37,3 +37,16 @@
   top: 0;
   left: 0;
   display: none; }
+
+.history {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .history span {
+    width: 30%;
+    height: 30px;
+    border: 1PX solid #ccc;
+    line-height: 30px;
+    text-align: center; }

@@ -4,6 +4,7 @@ require.config({
         "axios": 'libs/axios',
         "mui": 'libs/mui',
         "BScroll": 'libs/better-scroll',
-        "index": 'page/index'
+        "index": 'page/index',
+        "detail": 'page/detail'
     }
 })
